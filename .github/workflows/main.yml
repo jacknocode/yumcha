@@ -1,6 +1,6 @@
 name: main
 on:
-  pull_request:
+  push:
     branches: [ develop ]
 jobs:
   sample-job:
@@ -12,14 +12,16 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: check if pr exists
-        id: check_pr
-        run: |
-          pr_title=${{ 'リリースマージ' }}
-          base_branch=${{ 'main' }}
-          echo "::set-output name=count::$(gh pr list -S ${pr_title}' in:title' -B $base_branch | wc -l)"
-          echo "::set-output name=pr_title::$pr_title"
-          echo "::set-output name=base_branch::$base_branch"
-      - name: Create release pr
-        if: ${{ steps.check_pr.outputs.count == 0 }}
-        run: |
-          gh pr create -B ${{ steps.check_pr.outputs.base_branch }} -t ${{ steps.check_pr.outputs.pr_title }} -b ""
+        run: gh pr create -B "main" -t "リリースマージ" -b ""
+      #   id: check_pr
+      #   run: |
+      #     pr_title=${{ 'リリースマージ' }}
+      #     base_branch=${{ 'main' }}
+      #     echo "::set-output name=count::$(gh pr list -S ${pr_title}' in:title' -B $base_branch | wc -l)"
+      #     echo "::set-output name=pr_title::$pr_title"
+      #     echo "::set-output name=base_branch::$base_branch"
+      # - name: Create release pr
+      #   if: ${{ steps.check_pr.outputs.count == 0 }}
+      #   run: |
+      #     dev_branch=${{ 'develop' }}
+      #     gh pr create -B ${{ steps.check_pr.outputs.base_branch }} -t ${{ steps.check_pr.outputs.pr_title }} -b $dev_branch
