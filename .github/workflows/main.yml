@@ -1,0 +1,23 @@
+name: master 
+on:
+  pull_request:
+    branches:
+      - 'master'
+jobs:
+  sample-job:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Create pull request
+        env: 
+          REVIEWERS: "jacknocode"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRNACH_NAME: "develop"
+        run: |
+          RESULT=`hub pull-request -m "Github Actions からプルリクを出す" -b master -h $BRANCH_NAME -l "PR:draft" -r "$REVIEWERS"`
+          echo ::set-output name=url::$RESULT
