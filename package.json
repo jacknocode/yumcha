@@ -1,0 +1,26 @@
+{
+  "name": "@jacknocode/yumcha",
+  "version": "0.0.1",
+  "description": "design system pkg",
+  "main": "src/tokens.js",
+  "types": "src/tokens.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacknocode/yumcha.git"
+  },
+  "author": "j",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacknocode/yumcha/issues"
+  },
+  "homepage": "https://github.com/jacknocode/yumcha#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.25",
+    "typescript": "^4.7.4"
+  }
+}
