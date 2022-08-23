@@ -1,0 +1,29 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 23 Aug 2022 01:29:38 GMT
+ */
+
+$x4: 16px !default;
+$x3: 12px !default;
+$x2: 8px !default;
+$x1: 4px !default;
+$large: 18px !default;
+$medium: 14px !default;
+$small: 12px !default;
+$secondary: #4685f6 !default;
+$primary: #ffbf0e !default;
+$base: #8a8a8a !default;
+
+$css-tokens: (
+  'base': $base,
+  'primary': $primary,
+  'secondary': $secondary,
+  'small': $small,
+  'medium': $medium,
+  'large': $large,
+  'x1': $x1,
+  'x2': $x2,
+  'x3': $x3,
+  'x4': $x4
+);

@@ -1,25 +1,54 @@
-name: main
+name: publish library
+
+env:
+ CI: true
+
 on:
-  pull_request:
-    branches: [ develop ]
+ push:
+   branches:
+     - main
+   tags:
+     - "!*"
+
 jobs:
-  sample-job:
-    runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ publish:
+   name: Setup
+   runs-on: ubuntu-latest
+   steps:
+     - name: checkout
+       uses: actions/checkout@v2
 
-    steps:
-      - uses: actions/checkout@v2
+     # Nodeのバージョンを指定
+     - name: setup node
+       uses: actions/setup-node@v1
+       with:
+         node-version: 14.x
+         registry-url: https://npm.pkg.github.com
 
-      - name: check if pr exists
-        id: check_pr
-        run: |
-          pr_title=${{ 'リリースマージ' }}
-          base_branch=${{ 'main' }}
-          echo "::set-output name=count::$(gh pr list -S ${pr_title}' in:title' -B $base_branch | wc -l)"
-          echo "::set-output name=pr_title::$pr_title"
-          echo "::set-output name=base_branch::$base_branch"
-      - name: Create release pr
-        if: ${{ steps.check_pr.outputs.count == 0 }}
-        run: |
-          gh pr create -B ${{ steps.check_pr.outputs.base_branch }} -t ${{ steps.check_pr.outputs.pr_title }} -b ""
+     # 必要なモジュール（typescript）をインストール
+     - name: install node_modules
+       run: npm install
+
+     # トランスパイルを実行
+     - name: build
+       run: npx tsc
+
+     # パッケージとして公開する
+     - name: publish
+       run: npx can-npm-publish --verbose && npm publish || echo "No need to publish"
+       env:
+         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+     # バージョン情報を環境変数として設定
+     - name: set version to env
+       run: node -p -e '`VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
+
+     # バージョン情報持つタグを付与する
+     - name: add version tag
+       uses: pkgdeps/git-tag-action@v2
+       with:
+         version: ${{ env.VERSION }}
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         github_repo: ${{ github.repository }}
+         git_commit_sha: ${{ github.sha }}
+         git_tag_prefix: "v"
