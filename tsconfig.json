@@ -3,17 +3,20 @@
     "target": "es2020",
     "module": "esnext",
     "declaration": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "skipLibCheck": true,
     "outDir": "./dist",
     "strict": true,
     "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
   },
   "exclude": [
-    "node_modules",
-    "dist"
+    "./node_modules",
   ],
   "include": [
     "src/**/*"
