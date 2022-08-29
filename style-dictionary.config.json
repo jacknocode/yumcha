@@ -15,7 +15,7 @@
     },
     "ts": {
       "buildPath": "src/",
-      "transformGroup": "ts",
+      "transformGroup": "js",
       "files": [
         {
           "format": "javascript/module",
