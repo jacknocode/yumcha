@@ -34,7 +34,6 @@
     "output": "token-transformer tokens.json output.json",
     "style": "style-dictionary build --config style-dictionary.config.json",
     "build": "tsc -p ./tsconfig.json",
-    "prebuild": "rimraf dist",
-    "prepublishOnly": "npm run clean && npm run build"
+    "prebuild": "rimraf dist"
   }
 }
