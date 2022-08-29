@@ -2,8 +2,12 @@
   "name": "@jacknocode/yumcha",
   "version": "0.0.1",
   "description": "design system pkg",
-  "main": "src/tokens.js",
-  "types": "src/tokens.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
   "publishConfig": {
     "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
@@ -19,8 +23,11 @@
   },
   "homepage": "https://github.com/jacknocode/yumcha#readme",
   "devDependencies": {
+    "@types/node": "^18.7.13",
+    "rimraf": "^3.0.2",
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.25",
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   }
 }
