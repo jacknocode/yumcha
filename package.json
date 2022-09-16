@@ -1,6 +1,6 @@
 {
   "name": "@jacknocode/yumcha",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "design system pkg",
   "main": "./dist/tokens.js",
   "types": "./dist/tokens.d.ts",
@@ -8,6 +8,7 @@
     "dist"
   ],
   "publishConfig": {
+    "access":"public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
