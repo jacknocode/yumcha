@@ -1,5 +1,5 @@
 {
-  "source": ["output.json"],
+  "source": ["style-tokens.json"],
   "platforms": {
     "scss": {
       "buildPath": "src/",
