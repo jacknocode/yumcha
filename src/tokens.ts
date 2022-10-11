@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 01:11:01 GMT
+ * Generated on Tue, 11 Oct 2022 02:19:14 GMT
  */
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     "0": {
       "value": "Offers",
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "Offers",
@@ -30,7 +30,7 @@ module.exports = {
       "1": {
         "value": 10,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 10,
@@ -51,7 +51,7 @@ module.exports = {
       "2": {
         "value": 12,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 12,
@@ -72,7 +72,7 @@ module.exports = {
       "3": {
         "value": 14,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 14,
@@ -93,7 +93,7 @@ module.exports = {
       "4": {
         "value": 16,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 16,
@@ -114,7 +114,7 @@ module.exports = {
       "5": {
         "value": 20,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 20,
@@ -135,7 +135,7 @@ module.exports = {
       "6": {
         "value": 24,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 24,
@@ -156,7 +156,7 @@ module.exports = {
       "7": {
         "value": 32,
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": 32,
@@ -177,7 +177,7 @@ module.exports = {
       "8": {
         "value": "48px",
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "48px",
@@ -200,7 +200,7 @@ module.exports = {
       "default": {
         "value": "14px",
         "type": "fontSizes",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "14px",
@@ -224,7 +224,7 @@ module.exports = {
     "default": {
       "value": 500,
       "type": "fontWeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 500,
@@ -243,7 +243,7 @@ module.exports = {
     "bold": {
       "value": 700,
       "type": "fontWeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 700,
@@ -264,7 +264,7 @@ module.exports = {
     "1x": {
       "value": 4,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 4,
@@ -283,7 +283,7 @@ module.exports = {
     "2x": {
       "value": 8,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 8,
@@ -302,7 +302,7 @@ module.exports = {
     "3x": {
       "value": 12,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 12,
@@ -321,7 +321,7 @@ module.exports = {
     "4x": {
       "value": 16,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 16,
@@ -340,7 +340,7 @@ module.exports = {
     "5x": {
       "value": 20,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 20,
@@ -359,7 +359,7 @@ module.exports = {
     "6x": {
       "value": 24,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 24,
@@ -378,7 +378,7 @@ module.exports = {
     "8x": {
       "value": 32,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 32,
@@ -397,7 +397,7 @@ module.exports = {
     "10x": {
       "value": 40,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 40,
@@ -416,7 +416,7 @@ module.exports = {
     "12x": {
       "value": 48,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 48,
@@ -435,7 +435,7 @@ module.exports = {
     "14x": {
       "value": 56,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 56,
@@ -454,7 +454,7 @@ module.exports = {
     "16x": {
       "value": 64,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 64,
@@ -473,7 +473,7 @@ module.exports = {
     "20x": {
       "value": 80,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 80,
@@ -492,7 +492,7 @@ module.exports = {
     "32x": {
       "value": 128,
       "type": "spacing",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 128,
@@ -513,7 +513,7 @@ module.exports = {
     "none": {
       "value": 0,
       "type": "lineHeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 0,
@@ -532,7 +532,7 @@ module.exports = {
     "sm": {
       "value": "120%",
       "type": "lineHeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "120%",
@@ -551,7 +551,7 @@ module.exports = {
     "md": {
       "value": "140%",
       "type": "lineHeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "140%",
@@ -570,7 +570,7 @@ module.exports = {
     "lg": {
       "value": "160%",
       "type": "lineHeights",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "160%",
@@ -591,7 +591,7 @@ module.exports = {
     "sm": {
       "value": 2,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 2,
@@ -610,7 +610,7 @@ module.exports = {
     "md": {
       "value": 4,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 4,
@@ -629,7 +629,7 @@ module.exports = {
     "lg": {
       "value": 8,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 8,
@@ -648,7 +648,7 @@ module.exports = {
     "round": {
       "value": "50%",
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "50%",
@@ -670,7 +670,7 @@ module.exports = {
       "Red-700": {
         "value": "#d50000",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#d50000",
@@ -691,7 +691,7 @@ module.exports = {
       "Red-400": {
         "value": "#ff1744",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff1744",
@@ -712,7 +712,7 @@ module.exports = {
       "Red-200": {
         "value": "#ff5252",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff5252",
@@ -733,7 +733,7 @@ module.exports = {
       "Red-100": {
         "value": "#ff8a80",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff8a80",
@@ -754,7 +754,7 @@ module.exports = {
       "Pink-700": {
         "value": "#d41a5a",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#d41a5a",
@@ -775,7 +775,7 @@ module.exports = {
       "Pink-400": {
         "value": "#fd4477",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fd4477",
@@ -796,7 +796,7 @@ module.exports = {
       "Pink-200": {
         "value": "#ff93b1",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff93b1",
@@ -817,7 +817,7 @@ module.exports = {
       "Pink-100": {
         "value": "#ffbdd0",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ffbdd0",
@@ -838,7 +838,7 @@ module.exports = {
       "Purple-700": {
         "value": "#aa00ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#aa00ff",
@@ -859,7 +859,7 @@ module.exports = {
       "Purple-400": {
         "value": "#d500f9",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#d500f9",
@@ -880,7 +880,7 @@ module.exports = {
       "Purple-200": {
         "value": "#e040fb",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#e040fb",
@@ -901,7 +901,7 @@ module.exports = {
       "Purple-100": {
         "value": "#ea80fc",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ea80fc",
@@ -922,7 +922,7 @@ module.exports = {
       "DeepPurple-700": {
         "value": "#6200ea",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#6200ea",
@@ -943,7 +943,7 @@ module.exports = {
       "DeepPurple-400": {
         "value": "#651fff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#651fff",
@@ -964,7 +964,7 @@ module.exports = {
       "DeepPurple-200": {
         "value": "#7c4dff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#7c4dff",
@@ -985,7 +985,7 @@ module.exports = {
       "DeepPurple-100": {
         "value": "#b388ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#b388ff",
@@ -1006,7 +1006,7 @@ module.exports = {
       "Blue-700": {
         "value": "#2962ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#2962ff",
@@ -1027,7 +1027,7 @@ module.exports = {
       "Blue-400": {
         "value": "#2979ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#2979ff",
@@ -1048,7 +1048,7 @@ module.exports = {
       "Blue-200": {
         "value": "#448aff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#448aff",
@@ -1069,7 +1069,7 @@ module.exports = {
       "Blue-100": {
         "value": "#82b1ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#82b1ff",
@@ -1090,7 +1090,7 @@ module.exports = {
       "LightBlue-700": {
         "value": "#0091ea",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#0091ea",
@@ -1111,7 +1111,7 @@ module.exports = {
       "LightBlue-400": {
         "value": "#00b0ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00b0ff",
@@ -1132,7 +1132,7 @@ module.exports = {
       "LightBlue-200": {
         "value": "#40c4ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#40c4ff",
@@ -1153,7 +1153,7 @@ module.exports = {
       "LightBlue-100": {
         "value": "#80d8ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#80d8ff",
@@ -1174,7 +1174,7 @@ module.exports = {
       "Cyan-700": {
         "value": "#00b8d4",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00b8d4",
@@ -1195,7 +1195,7 @@ module.exports = {
       "Cyan-400": {
         "value": "#00e5ff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00e5ff",
@@ -1216,7 +1216,7 @@ module.exports = {
       "Cyan-200": {
         "value": "#18ffff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#18ffff",
@@ -1237,7 +1237,7 @@ module.exports = {
       "Cyan-100": {
         "value": "#84ffff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#84ffff",
@@ -1258,7 +1258,7 @@ module.exports = {
       "Teal-900": {
         "value": "#00606b",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00606b",
@@ -1279,7 +1279,7 @@ module.exports = {
       "Teal-700": {
         "value": "#0396b0",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#0396b0",
@@ -1300,7 +1300,7 @@ module.exports = {
       "Teal-400": {
         "value": "#2ac5e5",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#2ac5e5",
@@ -1321,7 +1321,7 @@ module.exports = {
       "Teal-200": {
         "value": "#81ddf3",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#81ddf3",
@@ -1342,7 +1342,7 @@ module.exports = {
       "Teal-100": {
         "value": "#b3eaf8",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#b3eaf8",
@@ -1363,7 +1363,7 @@ module.exports = {
       "Green-700": {
         "value": "#00c853",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00c853",
@@ -1384,7 +1384,7 @@ module.exports = {
       "Green-400": {
         "value": "#00e676",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00e676",
@@ -1405,7 +1405,7 @@ module.exports = {
       "Green-200": {
         "value": "#69f0ae",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#69f0ae",
@@ -1426,7 +1426,7 @@ module.exports = {
       "Green-100": {
         "value": "#b9f6ca",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#b9f6ca",
@@ -1447,7 +1447,7 @@ module.exports = {
       "LightGreen-700": {
         "value": "#64dd17",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#64dd17",
@@ -1468,7 +1468,7 @@ module.exports = {
       "LightGreen-400": {
         "value": "#76ff03",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#76ff03",
@@ -1489,7 +1489,7 @@ module.exports = {
       "LightGreen-200": {
         "value": "#b2ff59",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#b2ff59",
@@ -1510,7 +1510,7 @@ module.exports = {
       "LightGreen-100": {
         "value": "#ccff90",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ccff90",
@@ -1531,7 +1531,7 @@ module.exports = {
       "Lime-700": {
         "value": "#aeea00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#aeea00",
@@ -1552,7 +1552,7 @@ module.exports = {
       "Lime-400": {
         "value": "#c6ff00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#c6ff00",
@@ -1573,7 +1573,7 @@ module.exports = {
       "Lime-200": {
         "value": "#eeff41",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#eeff41",
@@ -1594,7 +1594,7 @@ module.exports = {
       "Lime-100": {
         "value": "#f4ff81",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#f4ff81",
@@ -1615,7 +1615,7 @@ module.exports = {
       "Yellow-700": {
         "value": "#f9a130",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#f9a130",
@@ -1636,7 +1636,7 @@ module.exports = {
       "Yellow-400": {
         "value": "#fdca44",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fdca44",
@@ -1657,7 +1657,7 @@ module.exports = {
       "Yellow-200": {
         "value": "#fedf8b",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fedf8b",
@@ -1678,7 +1678,7 @@ module.exports = {
       "Yellow-100": {
         "value": "#feebb8",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#feebb8",
@@ -1699,7 +1699,7 @@ module.exports = {
       "Orange-700": {
         "value": "#ff6d00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff6d00",
@@ -1720,7 +1720,7 @@ module.exports = {
       "Orange-400": {
         "value": "#ff9100",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff9100",
@@ -1741,7 +1741,7 @@ module.exports = {
       "Orange-200": {
         "value": "#ffab40",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ffab40",
@@ -1762,7 +1762,7 @@ module.exports = {
       "Orange-100": {
         "value": "#ffd180",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ffd180",
@@ -1783,7 +1783,7 @@ module.exports = {
       "DeepOrange-700": {
         "value": "#dd2c00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#dd2c00",
@@ -1804,7 +1804,7 @@ module.exports = {
       "DeepOrange-400": {
         "value": "#ff3d00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff3d00",
@@ -1825,7 +1825,7 @@ module.exports = {
       "DeepOrange-200": {
         "value": "#ff6e40",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff6e40",
@@ -1846,7 +1846,7 @@ module.exports = {
       "DeepOrange-100": {
         "value": "#ff9e80",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff9e80",
@@ -1867,7 +1867,7 @@ module.exports = {
       "black-900": {
         "value": "#080809",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#080809",
@@ -1888,7 +1888,7 @@ module.exports = {
       "black-700": {
         "value": "#484849",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#484849",
@@ -1909,7 +1909,7 @@ module.exports = {
       "black-400": {
         "value": "#c2c2c2",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#c2c2c2",
@@ -1930,7 +1930,7 @@ module.exports = {
       "black-200": {
         "value": "#f5f5f5",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#f5f5f5",
@@ -1951,7 +1951,7 @@ module.exports = {
       "black-100": {
         "value": "#fafafa",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fafafa",
@@ -1972,7 +1972,7 @@ module.exports = {
       "White": {
         "value": "#ffffff",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ffffff",
@@ -1993,7 +1993,7 @@ module.exports = {
       "primary-grade": {
         "value": "linear-gradient(45deg, #0396b0 0%, #b3eaf8 0 50%, #000000 100%)",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "linear-gradient(45deg, #0396b0 0%, #b3eaf8 0 50%, #000000 100%)",
@@ -2016,7 +2016,7 @@ module.exports = {
       "Primary": {
         "value": "#0396b0",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#0396b0",
@@ -2037,7 +2037,7 @@ module.exports = {
       "Primary-darken": {
         "value": "#00606b",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#00606b",
@@ -2058,7 +2058,7 @@ module.exports = {
       "Accent": {
         "value": "#ff6d00",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#ff6d00",
@@ -2079,7 +2079,7 @@ module.exports = {
       "Alert": {
         "value": "#fd4477",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fd4477",
@@ -2100,7 +2100,7 @@ module.exports = {
       "Caution": {
         "value": "#fdca44",
         "type": "color",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "#fdca44",
@@ -2124,7 +2124,7 @@ module.exports = {
     "deepdive": {
       "value": -99999,
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": -99999,
@@ -2143,7 +2143,7 @@ module.exports = {
     "default": {
       "value": 0,
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 0,
@@ -2162,7 +2162,7 @@ module.exports = {
     "modal": {
       "value": 9000,
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 9000,
@@ -2181,7 +2181,7 @@ module.exports = {
     "overlay": {
       "value": 8000,
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 8000,
@@ -2200,7 +2200,7 @@ module.exports = {
     "sticky": {
       "value": 100,
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": 100,
@@ -2222,7 +2222,7 @@ module.exports = {
       "default": {
         "value": "700px",
         "type": "sizing",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "700px",
@@ -2245,7 +2245,7 @@ module.exports = {
       "default": {
         "value": "300px",
         "type": "sizing",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "300px",
@@ -2268,7 +2268,7 @@ module.exports = {
       "default": {
         "value": "956px",
         "type": "sizing",
-        "filePath": "output.json",
+        "filePath": "style-tokens.json",
         "isSource": true,
         "original": {
           "value": "956px",
@@ -2292,7 +2292,7 @@ module.exports = {
     "xs": {
       "value": "320px",
       "type": "other",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": "320px",
@@ -2320,7 +2320,7 @@ module.exports = {
         "type": "dropShadow"
       },
       "type": "boxShadow",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": {
@@ -2353,7 +2353,7 @@ module.exports = {
         "spread": 0
       },
       "type": "boxShadow",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": {
@@ -2386,7 +2386,7 @@ module.exports = {
         "spread": 0
       },
       "type": "boxShadow",
-      "filePath": "output.json",
+      "filePath": "style-tokens.json",
       "isSource": true,
       "original": {
         "value": {
