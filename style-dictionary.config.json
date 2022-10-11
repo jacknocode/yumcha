@@ -5,9 +5,9 @@
       "buildPath": "src/",
       "transformGroup": "scss",
       "files": [{
-        "destination": "tokens.scss",
+        "destination": "scss/_variable.scss",
         "format": "scss/map-deep",
-        "mapName":"css-tokens",
+        "mapName":"offers-tokens",
         "options": {
           "outputReferences": true
         }

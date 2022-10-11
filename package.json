@@ -1,8 +1,8 @@
 {
   "name": "@jacknocode/yumcha",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "design system pkg",
-  "main": "./dist/tokens.js",
+  "main": "./dist/*",
   "types": "./dist/tokens.d.ts",
   "files": [
     "dist"
