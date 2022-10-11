@@ -1,8 +1,8 @@
 {
   "name": "@jacknocode/yumcha",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "design system pkg",
-  "main": "./dist/*",
+  "main": "./dist/tokens.ts",
   "types": "./dist/tokens.d.ts",
   "files": [
     "dist"
@@ -34,7 +34,7 @@
   "scripts": {
     "output": "token-transformer tokens.json output.json",
     "style": "style-dictionary build --config style-dictionary.config.json",
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc -p ./tsconfig.json && cp -r ./public/scss/*",
     "prebuild": "rimraf dist"
   }
 }
