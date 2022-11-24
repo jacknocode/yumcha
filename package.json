@@ -1,6 +1,6 @@
 {
   "name": "@jacknocode/yumcha",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "design system pkg",
   "main": "./dist/tokens.ts",
   "types": "./dist/tokens.d.ts",

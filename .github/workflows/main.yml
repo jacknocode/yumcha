@@ -30,7 +30,7 @@ jobs:
        run: yarn run tokens
      - name: make styles
        run: yarn run styles
-    - name: make icon
+     - name: make icon
        run: yarn run icons
 
      - name: build
